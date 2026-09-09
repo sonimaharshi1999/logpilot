@@ -1,0 +1,33 @@
+{
+  "project_name": "logpilot",
+  "title": "LogPilot - AI-Powered Log Analysis CLI",
+  "category": "mlops",
+  "difficulty": "advanced",
+  "description": "A pip-installable CLI for intelligent log analysis. Parses logs, detects anomalies using statistical methods and clustering, identifies root causes, generates incident reports.",
+  "tech_stack": [
+    "click",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "pydantic",
+    "rich",
+    "pytest"
+  ],
+  "features": [
+    "Multi-format log parsing",
+    "Statistical anomaly detection",
+    "Pattern clustering",
+    "Root cause analysis",
+    "Rich terminal output",
+    "Incident report generation"
+  ],
+  "test_status": "PASSED",
+  "sample_input": {
+    "description": "Log files to analyze",
+    "example": "logpilot analyze --input app.log --format auto"
+  },
+  "sample_output": {
+    "description": "Anomaly report with root cause analysis",
+    "example": "logpilot report --input app.log --output incident.md"
+  }
+}
