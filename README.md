@@ -256,6 +256,25 @@ logpilot/
 
 ---
 
+
+
+---
+
+## Sample Input / Output
+
+![Sample Input and Output](assets/io-card.png)
+
+---
+
+## Project Overview
+
+![Project Summary](assets/report-card.png)
+
+### Reports
+- [HTML Report](reports/logpilot-report.html) - interactive report
+- [PDF Report](reports/logpilot-report.pdf) - downloadable PDF
+- [TXT Report](reports/logpilot-report.txt) - plain text
+
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.

@@ -1,0 +1,89 @@
+======================================================================
+  LogPilot - AI-Powered Log Analysis CLI
+======================================================================
+
+Author: Maharshi Soni
+Category: mlops
+Difficulty: advanced
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+A pip-installable CLI for intelligent log analysis. Parses logs, detects anomalies using statistical methods and clustering, identifies root causes, generates incident reports.
+
+----------------------------------------------------------------------
+TECH STACK
+----------------------------------------------------------------------
+  - click
+  - scikit-learn
+  - pandas
+  - numpy
+  - pydantic
+  - rich
+  - pytest
+
+----------------------------------------------------------------------
+FEATURES
+----------------------------------------------------------------------
+  * Multi-format log parsing
+  * Statistical anomaly detection
+  * Pattern clustering
+  * Root cause analysis
+  * Rich terminal output
+  * Incident report generation
+
+----------------------------------------------------------------------
+SAMPLE INPUT
+----------------------------------------------------------------------
+  Log files to analyze
+
+  Example:
+    logpilot analyze --input app.log --format auto
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT
+----------------------------------------------------------------------
+  Anomaly report with root cause analysis
+
+  Example:
+    logpilot report --input app.log --output incident.md
+
+----------------------------------------------------------------------
+PROJECT STRUCTURE
+----------------------------------------------------------------------
+  .gitignore
+  LICENSE
+  project-idea.json
+  pyproject.toml
+  README.md
+  .github/workflows/test.yml
+  src/logpilot/cli.py
+  src/logpilot/correlator.py
+  src/logpilot/detector.py
+  src/logpilot/display.py
+  src/logpilot/generator.py
+  src/logpilot/models.py
+  src/logpilot/parser.py
+  src/logpilot/py.typed
+  src/logpilot/reporter.py
+  src/logpilot/__init__.py
+  tests/conftest.py
+  tests/test_cli.py
+  tests/test_correlator.py
+  tests/test_detector.py
+  tests/test_generator.py
+  tests/test_parser.py
+  tests/test_reporter.py
+  tests/__init__.py
+
+----------------------------------------------------------------------
+TEST RESULTS
+----------------------------------------------------------------------
+  Status: PASSED
+  Tests Run: 34
+  Passed: 34
+  Failed: 0
+
+======================================================================
+  Author: Maharshi Soni  |  License: MIT
+======================================================================
