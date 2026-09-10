@@ -2,13 +2,18 @@
 
 [![Tests](https://github.com/sonimaharshi1999/logpilot/actions/workflows/test.yml/badge.svg)](https://github.com/sonimaharshi1999/logpilot/actions/workflows/test.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI](https://img.shields.io/pypi/v/logpilot-py)](https://pypi.org/project/logpilot-py/) [![Downloads](https://img.shields.io/pypi/dm/logpilot-py)](https://pypi.org/project/logpilot-py/)
 
 A pip-installable CLI tool for intelligent log analysis. LogPilot parses structured and unstructured logs, detects anomaly patterns using statistical methods and clustering, identifies root causes by correlating error patterns across time windows, and generates incident reports -- all from your terminal.
 
 Designed for **SRE and DevOps** workflows where fast, offline log triage matters.
 
 ---
+
+
+`ash
+pip install logpilot-py
+`
 
 ## Why I Built This
 
