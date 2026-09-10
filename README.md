@@ -1,6 +1,6 @@
 # LogPilot - AI-Powered Log Analysis CLI
 
-[![Tests](https://github.com/maharshisoni/logpilot/actions/workflows/test.yml/badge.svg)](https://github.com/maharshisoni/logpilot/actions/workflows/test.yml)
+[![Tests](https://github.com/sonimaharshi1999/logpilot/actions/workflows/test.yml/badge.svg)](https://github.com/sonimaharshi1999/logpilot/actions/workflows/test.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -118,7 +118,7 @@ graph TD
 
 ```bash
 # From source
-git clone https://github.com/maharshisoni/logpilot.git
+git clone https://github.com/sonimaharshi1999/logpilot.git
 cd logpilot
 pip install -e ".[dev]"
 
