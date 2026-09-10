@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "logpilot"
+name = "logpilot-py"
 version = "0.1.0"
 description = "AI-Powered Log Analysis CLI for SRE and DevOps workflows"
 readme = "README.md"
